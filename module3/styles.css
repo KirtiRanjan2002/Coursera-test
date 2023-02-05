@@ -111,3 +111,39 @@ span.title.p3 {
 }
 
 
+
+@media (min-width:992px) {
+
+    .col-md-1 {
+        float: left;
+       
+    }
+
+    .col-md-1 {
+        width: 97.44%;
+	} 
+}
+@media (min-width: 768px) and (max-width:991px){
+		
+    .col-sm-1{
+	    float:left;
+		}
+.col-sm-{
+	width: 97.44%;
+	}
+}
+
+@media (min-width: 767px) {
+
+    .col-xs-1 {
+        float: left;
+       
+    }
+
+    .col-xs-1 {
+        width: 97.44%;
+    }
+}
+
+
+
