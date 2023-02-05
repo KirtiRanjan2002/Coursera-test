@@ -112,7 +112,7 @@ span.title.p3 {
 
 
 
-@media (min-width:1200px) {
+@media (min-width:992px) {
 
     .col-lg-1 {
         float: left;
@@ -121,10 +121,15 @@ span.title.p3 {
 
     .col-lg-1 {
         width: 97.44%;
-    }
+	}}
+	@media (min-width: 768px) and (max-width:991px){
+		
+    .col-md-1{
+	    float:left;
+		}}
 
 
-@media (min-width: 4px) {
+@media (min-width: 767px) {
 
     .col-sm-1 {
         float: left;
