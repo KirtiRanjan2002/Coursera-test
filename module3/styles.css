@@ -112,7 +112,7 @@ span.title.p3 {
 
 
 
-@media (max-width: 4000px) {
+@media (min-width: 4px) {
 
     .col-sm-1 {
         float: left;
