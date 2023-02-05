@@ -26,7 +26,10 @@ h1{
 	font-weight: bold;
 	text-shadow: 1px 1px 1px ;
 
-}
+}}
+#nav-list a{
+  
+    color:black}
 
 #nav-list a:hover{
 	background-color:black;
@@ -112,7 +115,7 @@ span.title.p3 {
 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
 
     .col-sm-1 {
         float: left;
