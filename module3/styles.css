@@ -2,7 +2,11 @@ body {
 	font-size: 15px;
 	color: white;
 	background-color:black;
+}
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -26,7 +30,7 @@ h1{
 	font-weight: bold;
 	text-shadow: 1px 1px 1px ;
 
-}}
+}
 #nav-list a{
   
     color:black}
@@ -39,7 +43,8 @@ h1{
 }
 
 .navbar-header button.navbar-toggle{
-	border: 1px solid black;
+	border: 2px solid black;
+    margin-right: 25px;
 }
 
 .navbar-header button.navbar-toggle{
@@ -102,6 +107,8 @@ span.title {
 
 span.title.p1 {
     background-color: brown;
+    
+
 
 }
 
@@ -114,15 +121,27 @@ span.title.p3 {
 }
 
 
+.menu-item{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    display: block;
+}
 
-@media (max-width: 1400px) {
-
-    .col-sm-1 {
-        float: left;
-       
+.menu-item:hover{
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(0,0,0,0.4);
+}
+.row{
+    margin: 20px;
     }
 
-    .col-sm-1 {
-        width: 97.44%;
-    }
+
+
+    li{
+    box-sizing: border-box;
+    width: 100%;
 }
